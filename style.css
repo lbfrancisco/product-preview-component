@@ -27,7 +27,7 @@ body * {
   background-color: white;
 
   max-width: 500px;
-  margin: calc(100% - 300px) auto;
+  margin: 64px auto;
   border-radius: 8px;
 }
 
@@ -103,6 +103,22 @@ button:hover {
   background-color: hsl(158, 36%, 17%);
 }
 
+.attribution {
+  text-align: center;
+  font-size: 1rem;
+  margin: 32px;
+}
+
+.attribution a {
+  font-size: 1rem;
+  color: var(--green-500);
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(158, 36%, 17%);
+}
+
 @media (max-width: 532px) {
   #card {
     margin-inline: 16px;
@@ -114,7 +130,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     max-width: 620px;
-    margin: 15vh auto;
+    margin: 64px auto;
   }
 
   .container {
